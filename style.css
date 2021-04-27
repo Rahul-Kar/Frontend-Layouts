@@ -568,6 +568,11 @@ p{
 }
 
 @media (max-width: 400px) {
+   .hero-box h1{
+   transform: scale(0.9) !important;
+   font-size: 2rem;
+   padding-bottom: 10px;
+  }
   .social-link li:hover{
     color: var(--primary-color);
     cursor: pointer;
@@ -646,6 +651,7 @@ p{
 }
 .service-box h1, .work-box h1{
   font-size: 1.4rem;
+  text-align: center;
 }
 }
 
