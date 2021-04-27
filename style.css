@@ -565,7 +565,90 @@ p{
   font-weight: 100;
   transform: scale(1.2);
 }
-
 }
+
+@media (max-width: 400px) {
+  .social-link li:hover{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.social-link li{
+    padding: 6px 0;
+    color: #111; 
+}
+.about{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.menu,
+.delete {
+  padding: 5px 13px;
+  z-index: 50;
+}
+.menu a,
+.delete a {
+  display: inline-block;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 100;
+  transform: scale(1.15);
+}
+.hero-img img{
+  bottom: 0;
+  transform: scale(0.7);
+}
+.hero-img {
+  bottom: 0;
+}
+.hero-img img {
+  position: absolute;
+  top: 23vh !important;
+  right: 0 !important;
+  width: 80%;
+  height: 90%;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.hero-img {
+  height: 100vh;
+  width: 120%;
+  position: absolute;
+  bottom: 0 !important;
+  right: 0 !important; 
+  padding: 0 !important;
+  margin: 0 !important; 
+}
+.hero-box{
+  transform: scale(0.8);
+  padding: 0;
+  top: 14%;
+  right: 0 !important;
+}
+.hero-box h1{
+  font-size: 1.7;
+  transform: scale(0.8);
+  padding: 0;
+}
+.hero-box p{
+  font-size: 0.9;
+  line-height: 1.5;
+  transform: scale(0.9);
+  /* padding-left: 10px; */
+  margin-top: -2px;
+  width: 107%;
+}
+.hero-box .btn{
+ display: inline-block;
+ margin-left: 25px;
+}
+.contact{
+  margin-left: 12px;
+}
+.service-box h1, .work-box h1{
+  font-size: 1.4rem;
+}
+}
+
+
 
 
