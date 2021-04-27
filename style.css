@@ -567,7 +567,7 @@ p{
 }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
    .hero-box h1{
    transform: scale(0.9) !important;
    font-size: 2rem;
